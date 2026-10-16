@@ -1,22 +1,24 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Separating algorithmic change from language change in a Rust rewrite of a real time threat scorer"
-type: software
+version: 1.0.0
 license: MIT
-repository-code: "https://github.com/ntantaroudas/sentinelsphere-rust-speedup"
 authors:
-  - family-names: "Tantaroudas"
-    given-names: "Nikolaos D."
+  - family-names: Tantaroudas
+    given-names: Nikolaos D.
     affiliation: "Institute of Communication and Computer Systems (ICCS), National Technical University of Athens"
-  - family-names: "Karachalios"
-    given-names: "Ilias"
+    email: nikolaos.tantaroudas@iccs.gr
+    orcid: "https://orcid.org/0000-0001-6727-1014"
+  - family-names: Karachalios
+    given-names: Ilias
     affiliation: "University of Thessaly"
-  - family-names: "McCracken"
-    given-names: "Andrew J."
-    affiliation: "DASKALOS APPS SAS"
+  - family-names: McCracken
+    given-names: Andrew J.
+    affiliation: "DASKALOS-APPS"
 keywords:
-  - "benchmark"
-  - "Rust"
-  - "Python"
-  - "performance"
-  - "threat scoring"
+  - benchmark
+  - Rust
+  - Python
+  - performance
+  - threat scoring
+repository-code: "https://github.com/ntantaroudas/sentinelsphere-rust-speedup"

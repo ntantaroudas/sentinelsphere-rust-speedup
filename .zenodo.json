@@ -1,11 +1,12 @@
 {
   "title": "Separating algorithmic change from language change in a Rust rewrite of a real time threat scorer",
   "upload_type": "software",
-  "license": "MIT",
+  "description": "Code and aggregated results of the study \"Separating algorithmic change from language change in a Rust rewrite of a real time threat scorer\", a follow on study of the SentinelSphere platform carried out under the Horizon Europe project ResilMesh, Grant Agreement No. 101119681. The repository holds the analysis code, the result tables and the figures of the Open Research Europe article. Third party datasets and benchmark items are not included.",
   "creators": [
     {
       "name": "Tantaroudas, Nikolaos D.",
-      "affiliation": "Institute of Communication and Computer Systems (ICCS), National Technical University of Athens"
+      "affiliation": "Institute of Communication and Computer Systems (ICCS), National Technical University of Athens",
+      "orcid": "0000-0001-6727-1014"
     },
     {
       "name": "Karachalios, Ilias",
@@ -13,9 +14,11 @@
     },
     {
       "name": "McCracken, Andrew J.",
-      "affiliation": "DASKALOS APPS SAS"
+      "affiliation": "DASKALOS-APPS"
     }
   ],
+  "license": "mit",
+  "access_right": "open",
   "keywords": [
     "benchmark",
     "Rust",
@@ -23,10 +26,12 @@
     "performance",
     "threat scoring"
   ],
-  "grants": [
+  "language": "eng",
+  "related_identifiers": [
     {
-      "id": "10.13039/501100000780::101119681"
+      "identifier": "https://doi.org/10.48550/arXiv.2610.07931",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
     }
-  ],
-  "description": "Code and aggregated results for the Open Research Europe article \"Separating algorithmic change from language change in a Rust rewrite of a real time threat scorer\"."
+  ]
 }
