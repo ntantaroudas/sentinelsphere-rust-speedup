@@ -22,3 +22,5 @@ keywords:
   - performance
   - threat scoring
 repository-code: "https://github.com/ntantaroudas/sentinelsphere-rust-speedup"
+doi: "10.5281/zenodo.23410126"
+date-released: 2026-10-16
