@@ -1,0 +1,22 @@
+{
+ "checksum_consistent": true,
+ "bounded": {
+  "n": 100000,
+  "endtoend_speedup": 13442.328629191987,
+  "language_speedup_incremental": 24.374721610098618,
+  "algorithm_speedup_python": 551.4864474851165
+ },
+ "burst": {
+  "n": 50000,
+  "endtoend_speedup": 194714.48520313698,
+  "language_speedup_incremental": 16.71031788597146,
+  "algorithm_speedup_python": 11652.350753099823
+ },
+ "growth_exponent_burst": {
+  "py_naive_deque_index": 2.098649508870824,
+  "py_naive_deque_iter": 2.017743703993055,
+  "py_incremental": 1.037064254459507,
+  "rs_naive": 1.9003699957061528,
+  "rs_incremental": 0.9898470975047805
+ }
+}

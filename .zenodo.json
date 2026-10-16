@@ -1,0 +1,32 @@
+{
+  "title": "Separating algorithmic change from language change in a Rust rewrite of a real time threat scorer",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Tantaroudas, Nikolaos D.",
+      "affiliation": "Institute of Communication and Computer Systems (ICCS), National Technical University of Athens"
+    },
+    {
+      "name": "Karachalios, Ilias",
+      "affiliation": "University of Thessaly"
+    },
+    {
+      "name": "McCracken, Andrew J.",
+      "affiliation": "DASKALOS APPS SAS"
+    }
+  ],
+  "keywords": [
+    "benchmark",
+    "Rust",
+    "Python",
+    "performance",
+    "threat scoring"
+  ],
+  "grants": [
+    {
+      "id": "10.13039/501100000780::101119681"
+    }
+  ],
+  "description": "Code and aggregated results for the Open Research Europe article \"Separating algorithmic change from language change in a Rust rewrite of a real time threat scorer\"."
+}

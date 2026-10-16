@@ -1,0 +1,13 @@
+[package]
+name = "threat_scorer"
+version = "0.1.0"
+edition = "2021"
+description = "Windowed threat scorer, naive and incremental, for the Paper A speedup decomposition"
+license = "MIT"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1

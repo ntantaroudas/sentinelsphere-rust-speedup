@@ -1,0 +1,77 @@
+steady  burst    py_naive_deque_index   n=      100 reps=50       0.1s
+steady  burst    py_naive_deque_iter    n=      100 reps=50       0.1s
+steady  burst    py_incremental         n=      100 reps=50       0.0s
+steady  burst    rs_naive               n=      100 reps=50       0.0s
+steady  burst    rs_incremental         n=      100 reps=50       0.0s
+steady  burst    py_naive_deque_index   n=      500 reps=50       1.6s
+steady  burst    py_naive_deque_iter    n=      500 reps=50       1.5s
+steady  burst    py_incremental         n=      500 reps=50       0.1s
+steady  burst    rs_naive               n=      500 reps=50       0.3s
+steady  burst    rs_incremental         n=      500 reps=50       0.0s
+steady  burst    py_naive_deque_index   n=    1,000 reps=50       8.1s
+steady  burst    py_naive_deque_iter    n=    1,000 reps=50       6.3s
+steady  burst    py_incremental         n=    1,000 reps=50       0.1s
+steady  burst    rs_naive               n=    1,000 reps=50       1.2s
+steady  burst    rs_incremental         n=    1,000 reps=50       0.0s
+steady  burst    py_naive_deque_index   n=    2,000 reps=50      29.1s
+steady  burst    py_naive_deque_iter    n=    2,000 reps=50      26.6s
+steady  burst    py_incremental         n=    2,000 reps=50       0.2s
+steady  burst    rs_naive               n=    2,000 reps=50       4.2s
+steady  burst    rs_incremental         n=    2,000 reps=50       0.0s
+batch   bounded  py_naive_deque_index   n=    1,000 reps= 3       0.4s
+batch   bounded  py_naive_deque_iter    n=    1,000 reps= 3       0.4s
+batch   bounded  py_incremental         n=    1,000 reps=10       0.0s
+batch   bounded  rs_naive               n=    1,000 reps= 3       0.1s
+batch   bounded  rs_incremental         n=    1,000 reps=10       0.0s
+batch   bounded  py_naive_deque_index   n=    5,000 reps= 3       9.0s
+batch   bounded  py_naive_deque_iter    n=    5,000 reps= 3       7.3s
+batch   bounded  py_incremental         n=    5,000 reps=10       0.1s
+batch   bounded  rs_naive               n=    5,000 reps= 3       1.2s
+batch   bounded  rs_incremental         n=    5,000 reps=10       0.0s
+batch   bounded  py_naive_deque_index   n=   10,000 reps= 3      20.5s
+batch   bounded  py_naive_deque_iter    n=   10,000 reps= 3      18.3s
+batch   bounded  py_incremental         n=   10,000 reps=10       0.2s
+batch   bounded  rs_naive               n=   10,000 reps= 3       2.8s
+batch   bounded  rs_incremental         n=   10,000 reps=10       0.0s
+batch   bounded  py_naive_deque_index   n=   50,000 reps= 1      41.2s
+batch   bounded  py_naive_deque_iter    n=   50,000 reps= 1      34.2s
+batch   bounded  py_incremental         n=   50,000 reps=10       1.0s
+batch   bounded  rs_naive               n=   50,000 reps= 1       5.3s
+batch   bounded  rs_incremental         n=   50,000 reps=10       0.0s
+batch   bounded  py_naive_deque_index   n=  100,000 reps= 1      82.6s
+batch   bounded  py_naive_deque_iter    n=  100,000 reps= 1      66.0s
+batch   bounded  py_incremental         n=  100,000 reps=10       1.7s
+batch   bounded  rs_naive               n=  100,000 reps= 1      10.6s
+batch   bounded  rs_incremental         n=  100,000 reps=10       0.1s
+batch   bounded  py_incremental         n=1,000,000 reps=10      17.9s
+batch   bounded  rs_incremental         n=1,000,000 reps=10       0.7s
+batch   burst    py_naive_deque_index   n=    1,000 reps= 3       0.4s
+batch   burst    py_naive_deque_iter    n=    1,000 reps= 3       0.4s
+batch   burst    py_incremental         n=    1,000 reps=10       0.0s
+batch   burst    rs_naive               n=    1,000 reps= 3       0.1s
+batch   burst    rs_incremental         n=    1,000 reps=10       0.0s
+batch   burst    py_naive_deque_index   n=    5,000 reps= 3      10.9s
+batch   burst    py_naive_deque_iter    n=    5,000 reps= 3       9.0s
+batch   burst    py_incremental         n=    5,000 reps=10       0.1s
+batch   burst    rs_naive               n=    5,000 reps= 3       1.4s
+batch   burst    rs_incremental         n=    5,000 reps=10       0.0s
+batch   burst    py_naive_deque_index   n=   10,000 reps= 3      47.6s
+batch   burst    py_naive_deque_iter    n=   10,000 reps= 3      37.9s
+batch   burst    py_incremental         n=   10,000 reps=10       0.2s
+batch   burst    rs_naive               n=   10,000 reps= 3       5.1s
+batch   burst    rs_incremental         n=   10,000 reps=10       0.0s
+batch   burst    py_naive_deque_index   n=   20,000 reps= 1      76.3s
+batch   burst    py_naive_deque_iter    n=   20,000 reps= 1      50.2s
+batch   burst    py_incremental         n=   20,000 reps=10       0.3s
+batch   burst    rs_naive               n=   20,000 reps= 3      20.1s
+batch   burst    rs_incremental         n=   20,000 reps=10       0.0s
+batch   burst    py_naive_deque_index   n=   50,000 reps= 1     659.9s
+batch   burst    py_naive_deque_iter    n=   50,000 reps= 1     334.5s
+batch   burst    py_incremental         n=   50,000 reps=10       0.7s
+batch   burst    rs_naive               n=   50,000 reps= 1      41.1s
+batch   burst    rs_incremental         n=   50,000 reps=10       0.0s
+batch   burst    py_incremental         n=  100,000 reps=10       1.4s
+batch   burst    rs_naive               n=  100,000 reps= 1     163.4s
+batch   burst    rs_incremental         n=  100,000 reps=10       0.1s
+batch   burst    py_incremental         n=1,000,000 reps=10      17.6s
+batch   burst    rs_incremental         n=1,000,000 reps=10       0.7s
